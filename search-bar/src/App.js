@@ -1,6 +1,7 @@
 import './App.css';
 import React,{useState} from "react";
 import universities from './universities';
+import index from './index';
 
 export default function App() {
   const [universities, setUniversity] = useState('');
